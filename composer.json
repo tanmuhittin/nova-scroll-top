@@ -1,0 +1,25 @@
+{
+    "name": "tanmuhittin/nova-scroll-top",
+    "description": "On route change scrolls to the top",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhittin Tan",
+            "email": "tanmuhittin@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TanMuhittin\\NovaScrollTop\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "TanMuhittin\\NovaScrollTop\\ScrollTopServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
