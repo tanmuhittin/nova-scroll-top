@@ -3,7 +3,7 @@ On route change scroll to the top of the page. On 422 error scroll to the first 
 `` composer require tanmuhittin/nova-scroll-top ``
 
 If you do not want to use scroll to erroneous field trait or scroll to the top on page load trait you can set this on config file. First publish it via:<br> 
-`` php artisan vendor:publish --provider=TanMuhittin\NovaScrollTop\ScrollTopServiceProvider ``
+`` php artisan vendor:publish --provider=TanMuhittin\\NovaScrollTop\\ScrollTopServiceProvider ``
 
 ```
     /**
